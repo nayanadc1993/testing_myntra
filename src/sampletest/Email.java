@@ -14,9 +14,9 @@ public class Email {
 			driver.get("http://www.myntra.com");
 			Thread.sleep(2000);
 
-		driver.findElement(By.xpath("//*[text()='Profile']")).click();
-   driver.findElement(By.xpath("//*[contains(@href, 'login?referer')]")).click();
-   
+			driver.findElement(By.xpath("//*[text()='Profile']")).click();
+			driver.findElement(By.xpath("//*[contains(@href, 'login?referer')]")).click();
+
 //			driver.close();
 
 		} catch (Exception ex) {
